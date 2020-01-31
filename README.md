@@ -981,8 +981,7 @@ sh platform cpu packet statistics<br/>
 enable 进入特权模式<br/>
 config terminal 进入全局配置模式<br/>
 router（config）#line console 0 进入控制台口<br/>
-router（config-line）#line vty 0 4 进入虚拟终端<br/>
-（Ctrl+z） 返回特权模式<br/>
+router（config-line）#line vty 0 4 进入虚拟终端（Ctrl+z）返回特权模式<br/>
 int s0/0 进入Serail接口<br/>
 no shutdown 激活当前接口<br/>
 ip address 设置IP地址<br/>
