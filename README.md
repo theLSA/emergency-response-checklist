@@ -809,7 +809,7 @@ systeminfo
 3.出现大量的 ESTABLISHED 的网络连接状态且单个 IP 高达几十个甚至上百个连接。<br/>
 4.用户无法正常访问网站页面或打开过程非常缓慢，软重启后短期内恢复正常，几分钟后又无法访问。<br/>
 
->参考：[https://www.hi-linux.com/posts/50873.html](https://www.hi-linux.com/posts/50873.html) 
+>参考资料：[https://www.hi-linux.com/posts/50873.html](https://www.hi-linux.com/posts/50873.html) 
 
 
 常见攻击类型：
@@ -897,7 +897,7 @@ DOS通用防御：<br/>
 砸钱，上抗d设备，流量清洗，高防，硬防，cdn，隐藏真实ip<br/><br/>
 
 
->网络层 DDoS 防御
+>网络层 DDoS 防御<br/>
 1.限制单 IP 请求频率。<br/>
 2.网络架构上做好优化，采用负载均衡分流。<br/>
 3.防火墙等安全设备上设置禁止 ICMP 包等。<br/>
@@ -912,7 +912,7 @@ DOS通用防御：<br/>
 5.使用 CDN / 云清洗，在攻击发生时，进行云清洗。通常云清洗厂商策略有以下几步：预先设置好网站的 CNAME，将域名指向云清洗厂商的 DNS 服务器；在一般情况下，云清洗厂商的 DNS 仍将穿透 CDN 的回源的请求指向源站，在检测到攻击发生时，域名指向自己的清洗集群，然后再将清洗后的流量回源。<br/>
 6.CDN 仅对 Web 类服务有效，针对游戏类 TCP 直连的服务无效。这时可以使用 DNS 引流 + ADS (Anti-DDoS System) 设备来清洗，还有在客户端和服务端通信协议做处理（如：封包加标签，依赖信息对称等）。<br/>
 
->参考：[https://www.hi-linux.com/posts/50873.html](https://www.hi-linux.com/posts/50873.html) 
+>参考资料：[https://www.hi-linux.com/posts/50873.html](https://www.hi-linux.com/posts/50873.html) 
 
 
 ### ARP欺骗
