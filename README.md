@@ -979,16 +979,16 @@ no shutdown 激活当前接口<br/>
 ip address 设置IP地址<br/>
 int f0/0.1 进入子接口<br/>
 copy running-config startup-config 保存配置<br/>
-show   version              //显示路由器的版本信息<br/>
-show   running-config       //显示整个路由器的配置<br/>
-show   run interface  serial 0          // 显示端口s0的配置<br/>
-show  int  serial 0               // 显示端口s0的状态<br/>
-show  contr serial 0     // 显示端口s0是DTE还是DCE<br/>
-show  cdp neighbor   // 显示连接了哪些邻居<br/>
-show  cdp entry *    // 显示连接的路由的具体信息<br/>
-show  cdp interface s0     // 显示s0口连接的邻居<br/>
+show   version 显示路由器的版本信息<br/>
+show   running-config 显示整个路由器的配置<br/>
+show   run interface  serial 0 显示端口s0的配置<br/>
+show  int  serial 0 显示端口s0的状态<br/>
+show  contr serial 0 显示端口s0是DTE还是DCE<br/>
+show  cdp neighbor 显示连接了哪些邻居<br/>
+show  cdp entry * 显示连接的路由的具体信息<br/>
+show  cdp interface s0 显示s0口连接的邻居<br/>
 show ip route<br/>
-show run查看当前配置<br/>
+show run 查看当前配置<br/>
 
 
 
