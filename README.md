@@ -70,7 +70,7 @@
 
 愿大家应急之路一帆风顺
 
-PDF：[https://github.com/theLSA/emergency-response-checklist/releases/download/1.0/emergency-response-checklist.pdf](https://github.com/theLSA/emergency-response-checklist/releases/download/1.0/emergency-response-checklist.pdf)
+[下载PDF](https://github.com/theLSA/emergency-response-checklist/releases/download/1.0/emergency-response-checklist.pdf)
 
 //图片皆来源于网络<br/><br/>
 
