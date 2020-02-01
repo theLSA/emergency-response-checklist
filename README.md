@@ -501,24 +501,14 @@ ssh后门快速判断：
 
 strings /usr/bin/.sshd | egrep '[1-9]{1,3}\.[1-9]{1,3}\.'
 
-检查SSH后门：
-
-1）比对ssh的版本
-
-ssh -V
-
-2）查看ssh配置文件和/usr/sbin/sshd的时间：
-
-stat /usr/sbin/sshd
-
-3）strings检查/usr/sbin/sshd，看是否有邮箱信息
-
-strings查看二进制文件中的字符串，通过strings /usr/sbin/sshd可能有邮箱信息。
-
-4）通过strace监控sshd进程读写文件的操作
-
-一般的sshd后门都会将账户密码记录到文件，可以通过strace进程跟踪到ssh登录密码文件。
-
+>检查SSH后门：<br/>
+1）比对ssh的版本<br/>
+ssh -V<br/>
+2）查看ssh配置文件和/usr/sbin/sshd的时间：<br/>
+stat /usr/sbin/sshd<br/>
+3）strings检查/usr/sbin/sshd，是否有邮箱信息<br/>
+4）通过strace监控sshd进程读写文件的操作<br/>
+一般的sshd后门都会将账户密码记录到文件，可以通过strace进程跟踪到ssh登录密码文件。<br/>
 ps axu | grep sshd | grep -v grep<br/>
 root 65530 0.0 0.1 48428 1260 ? Ss 13:43 0:00 /usr/sbin/sshd<br/>
 strace -o aa -ff -p 65530<br/>
