@@ -65,10 +65,12 @@
 
 ## 前言
 
-本项目旨在为应急响应提供全方位参考，以便快速解决问题。
+本项目旨在为应急响应提供全方位辅助，以便快速解决问题。<br/>
 结合自身经验和网络资料，形成checklist，期待大家提供更多技巧，共同完善本项目，欢迎issue/pr。
 
 愿大家应急之路一帆风顺
+
+PDF：[https://github.com/theLSA/emergency-response-checklist/releases/download/1.0/emergency-response-checklist.pdf](https://github.com/theLSA/emergency-response-checklist/releases/download/1.0/emergency-response-checklist.pdf)
 
 //图片皆来源于网络<br/><br/>
 
