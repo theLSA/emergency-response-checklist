@@ -521,6 +521,8 @@ aa.102586:open("/tmp/ilog", O_WRONLY|O_CREAT|O_APPEND, 0666) = 4<br/><br/><br/>
 
 ![](https://github.com/theLSA/emergency-response-checklist/raw/master/pics/esc05.png)
 
+//图片来源：[https://www.cnblogs.com/0x4D75/p/9838098.html](https://www.cnblogs.com/0x4D75/p/9838098.html)
+
 ### 文件
 
 C:\Documents and Settings\Administrator\Recent
