@@ -349,11 +349,11 @@ grep "Accepted " /var/log/secure | awk '{print $1,$2,$3,$9,$11}
 
 ### 用户
 
-last
-/etc/shadow 密码登陆相关信息
-uptime 查看用户登陆时间
-/etc/sudoers sudo用户列表
-/etc/passwd
+last<br/>
+/etc/shadow 密码登陆相关信息<br/>
+uptime 查看用户登陆时间<br/>
+/etc/sudoers sudo用户列表<br/>
+/etc/passwd<br/>
 
 查看UID为0的帐号：<br/>
 awk -F: '{if($3==0)print $1}' /etc/passwd
@@ -387,7 +387,7 @@ lsof -p 1234 检查pid号为1234进程调用情况
 
 strace -f -p 1234 跟踪分析pid号为1234的进程
 
-lsof -g gid 通常能找到恶意文件关联的lib文件
+lsof -g gid 找恶意文件关联的lib文件
 
 ps -aux或ps -ef
 
