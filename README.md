@@ -267,7 +267,7 @@ find / *.jsp -perm 4777
 
 隐藏文件.xxx
 
-分析sshd 文件，是否包括IP信息：<br/>
+分析sshd 文件是否包括IP信息：<br/>
 strings /usr/bin/.sshd | egrep '[1-9]{1,3}.[1-9]{1,3}.'
 
 更改：<br/>
@@ -363,16 +363,17 @@ cat /etc/passwd | grep -E "/bin/bash$"
 
 awk '/\$1|\$6/{print $1}' /etc/shadow
 
-a) 使用lastlog命令，系统中所有用户最近一次登录信息<br/>
-b) 使用lastb命令，用于显示用户错误的登录列表
+lastlog 系统中所有用户最近一次登录信息<br/>
+
+lastb 用户错误的登录列表
 
 more /etc/sudoers | grep -v "^#|^$" | grep "ALL=(ALL)"
 
-who命令查询utmp文件并报告当前登录的每个用户
+who 查询utmp文件并报告当前登录的每个用户
 
-w命令查询utmp文件并显示当前系统中每个用户和它所运行的进程信息
+w 查询utmp文件并显示当前系统中每个用户和它所运行的进程信息
 
-users打印当前登录的用户，每个用户名对应一个登录会话。如果一个用户不止一个登录会话，其用户名显示相同次数
+users 打印当前登录的用户，每个用户名对应一个登录会话。如果一个用户不止一个登录会话，其用户名显示相同次数
 
 
 ### 进程
