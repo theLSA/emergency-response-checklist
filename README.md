@@ -94,11 +94,11 @@ web入侵：挂马、网页篡改（博彩/黑帽SEO等）、植入webshell，�
 
 ### 整体分析流程
 
-![](https://github.com/theLSA/emergency-response-checklist/raw/master/pics/esc00.png)
+![](https://github.com/theLSA/emergency-response-checklist/raw/master/img/esc00.png)
 
-![](https://github.com/theLSA/emergency-response-checklist/raw/master/pics/esc01.png)
+![](https://github.com/theLSA/emergency-response-checklist/raw/master/img/esc01.png)
 
-![](https://github.com/theLSA/emergency-response-checklist/raw/master/pics/esc02.png)
+![](https://github.com/theLSA/emergency-response-checklist/raw/master/img/esc02.png)
 
 
 ### 相关工具/资源
@@ -232,7 +232,7 @@ show processlist;<br/>
 
 ## linux应急响应
 
-![](https://github.com/theLSA/emergency-response-checklist/raw/master/pics/esc03.png)
+![](https://github.com/theLSA/emergency-response-checklist/raw/master/img/esc03.png)
 
 ### 文件
 
@@ -280,7 +280,7 @@ find /tmp -iname "*" -atime 1 -type f
 
 ### 日志
 
-![](https://github.com/theLSA/emergency-response-checklist/raw/master/pics/esc04.png)
+![](https://github.com/theLSA/emergency-response-checklist/raw/master/img/esc04.png)
 
 /var/log/<br/>
 
@@ -520,7 +520,7 @@ aa.102586:open("/tmp/ilog", O_WRONLY|O_CREAT|O_APPEND, 0666) = 4<br/><br/><br/>
 
 ## windows应急响应
 
-![](https://github.com/theLSA/emergency-response-checklist/raw/master/pics/esc05.png)
+![](https://github.com/theLSA/emergency-response-checklist/raw/master/img/esc05.png)
 
 //图片来源：[https://www.cnblogs.com/0x4D75/p/9838098.html](https://www.cnblogs.com/0x4D75/p/9838098.html)
 
